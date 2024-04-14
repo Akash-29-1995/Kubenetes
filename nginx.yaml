@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:stable-bullseye  # Use the nginx container image
+        image: nginx:latest  # Use the nginx container image
         ports:
         - containerPort: 80  # Expose port 80
 
